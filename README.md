@@ -7,14 +7,14 @@ Arrange your categories, folders, and articles simply by dragging them to the de
 Get all the reporting of the help desk on the dashboard.
 'Greendesk' mainly focuses on simplicity and ease of use yet comprising all the necessary features and design aspects.
 
----- Technologies Used ----
-=> Html
-=> CSS
-=> Bootstrap
-=> Javascript
-=> Jquery
-=> PHP
-=> MySql
+---- Technologies Used ----<br>
+=> Html<br>
+=> CSS<br>
+=> Bootstrap<br>
+=> Javascript<br>
+=> Jquery<br>
+=> PHP<br>
+=> MySql<br>
 
 
 ---- Installation ----
