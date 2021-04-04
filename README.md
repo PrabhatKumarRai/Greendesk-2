@@ -7,6 +7,25 @@ Arrange your categories, folders, and articles simply by dragging them to the de
 Get all the reporting of the help desk on the dashboard.
 'Greendesk' mainly focuses on simplicity and ease of use yet comprising all the necessary features and design aspects.
 
+
+------- Updates in V.2 -------
+Frontend:
+=> Mobile number section hedden from the frontend if mobile number is not set (earlier it displayed 0).
+=> Add Article link displayed in the header if the user is logged in
+=> Edit Article link displayed if the user is logged in
+=> Print Article feature added
+=> Earlier the Search Field displayed "No Result Found" as the last result and it is now fixed.
+=> Dedicated Search Page added to list all the matching results
+=> Developer branding removed from the footer
+=> Overall design improvements and bug fixes
+
+Backend:
+=> Category and Folder pre selected while editig the article
+=> Print article feature improved
+=> Tags section merged in Article Properties
+=> Overall design improvements and bug fixes
+
+
 ---- Technologies Used ----<br>
 => Html<br>
 => CSS<br>
