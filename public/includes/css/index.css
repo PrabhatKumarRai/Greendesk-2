@@ -1,0 +1,78 @@
+.index-container{
+    min-height: calc(50vh + 1px);
+    width: calc(100% - 160px);
+    margin: 0 auto 50px;
+    padding: 30px;
+}
+
+.solution-head{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+/* solution container */
+.solution-container{
+    margin-bottom: 25px;
+}
+
+
+/* Solution Category */
+.solution-category {
+    border-bottom: 1px solid green;
+    margin-bottom: 20px;
+}
+.solution-category a{
+    font-size: 20px;
+    color: #797979;
+}
+.solution-category h5{
+    margin-bottom: 8px;
+}
+
+/* Solution Folder */
+.solution-folder-container{
+    width: 45%;
+    margin-bottom: 20px;
+}
+.solution-folder{
+    margin-bottom: 15px;
+}
+.solution-folder a{
+    color: rgb(37, 37, 37);
+}
+
+/* Solution Post */
+.solution-post{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.solution-post-icon{
+    color: #7c7c7c;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+@media(max-width: 1000px){
+    .index-container{
+        width: calc(100% - 100px);
+        padding: 30px;
+    }
+    .solution-folder h6{
+        font-size: 19px;
+    }
+    .solution-post{
+        font-size: 16px;
+    }
+    .solution-post-icon{
+        font-size: 15px;
+    }
+}
+@media(max-width: 768px){
+    .index-container{
+        width: calc(100% - 30px);
+        padding: 20px;
+    }
+    .solution-folder-container{
+        width: 100%;
+    }
+}

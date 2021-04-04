@@ -1,0 +1,50 @@
+.post-detail-container{
+    width: calc(100% - 160px);
+    margin: auto;
+}
+.post-container{
+    width: 65%;
+    overflow-x:auto;
+}
+
+.post-head h1{
+    font-size: 24px;
+}
+.post-modified{
+    font-size: 14px;
+}
+
+
+/* Recent Articles Section */
+.recent-articles-container{
+    width: 35%;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.recent-articles-head h4 {
+    font-size: 20px;
+    font-weight: 400;    
+}
+
+
+@media(max-width: 1000px){
+    .post-detail-container{
+        width: calc(100% - 100px);
+    }
+}
+@media(max-width: 768px){
+    .post-detail-container{
+        width: calc(100% - 30px);
+    }
+    .solution-folder-container{
+        width: 100%;
+    }
+    .post-container{
+        width: 100%;
+        margin-bottom: 0px !important;
+    }
+    .recent-articles-container{
+        width: 100%;
+        padding: 20px;
+    }
+}

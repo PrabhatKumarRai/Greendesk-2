@@ -1,0 +1,17 @@
+.page-navigation-link{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+
+.page-head{
+    border-bottom: 1px solid green;
+    margin-bottom: 20px;
+}
+.page-head a{
+    font-size: 20px;
+    color: #111;
+}
+.page-head h5{
+    margin-bottom: 8px;
+}

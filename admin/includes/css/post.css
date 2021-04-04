@@ -1,0 +1,50 @@
+/* List Section Starts */
+.post-list-item{
+    position: relative;
+}
+.post-list-item-icon{
+    width: 55px;
+    margin-right: 10px;
+}
+.post-list-item-head{
+    color: #111;
+    width: fit-content;
+}
+.post-list-item-head h3{
+    font-size: 24px;
+}
+.post-menu {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+.post-menu .post-menu-toggler{
+    min-width: 20px;
+    text-align: center;
+}
+.post-menu .post-menu-toggler:focus{
+    outline: 0;
+}
+.post-menu i{
+    font-size: 18px;
+    color: #111;
+}
+/* List Section Ends */
+
+/* Post Detail Section Starts */
+.post-container{
+    min-height: 76vh;
+}
+.post-header{
+    text-align: center;
+}
+.post-content, .post-tags{
+    padding: 0px 5px;
+}
+.post-tags{
+    margin-bottom: 20px;
+}
+.post-actions a, .post-actions button{
+    margin-bottom: 15px;
+}
+/* Post Detail Section Ends */
